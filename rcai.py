@@ -11,7 +11,7 @@ from langchain.schema import HumanMessage, AIMessage
 #from langchain.tools import format_tool_to_openai_functions
 from dotenv import find_dotenv, load_dotenv
 import openai
-from functions import draft_email, get_order_desc
+from functions import get_order_desc
 import textwrap
 
 load_dotenv(find_dotenv())
